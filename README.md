@@ -1,6 +1,19 @@
 # ncurses-battleship
 A battleship game using the ncurses library.
 
+<h2>Environments and Technologies Used</h2>
+
+- KDE Plasma (Desktop environment for Linux, X11 and Wayland compatible)
+- GCC, the GNU Compiler Collection
+- Konsole (Graphical Terminal Command Shell)
+- nucurses, a programming C library used for making text-based UIs in terminals
+- vim, a free and open-source text editor that comes with Linux
+<!-- vimtutor is your best friend -->
+
+<h2>Operating Systems Used </h2>
+
+- Arch Linux (Kernel Version 6.12.1)
+
 <h2> Purpose of the project </h2>
 
 This project was meant to practice writing functions and using the ncurses library in the C programming language. If I was to make changes and improve this program now, (aside from troubleshooting the hard mode of the game), I would try to make the menus even more visual and intuitive for the player to navigate, and add a two palyer mode where only one board displays the visible ships at a time so you could play with a friend instead of only against an AI.
