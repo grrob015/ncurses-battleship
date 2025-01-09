@@ -25,6 +25,6 @@ This project was meant to practice writing functions and using the ncurses libra
 
 If I was to make changes and improve this program now, (aside from troubleshooting the hard mode of the game), I would try to make the menus even more visual and intuitive for the player to navigate, and add a two palyer mode where only one board displays the visible ships at a time so you could play with a friend instead of only against an AI.
 
-From a coding perspective, my use of variables (especially in the hard mode section of the `generate_ai_shots` function is sloppy, and probably contributed to the complexity and confusion of things. From further studies, it would behoove me to define more things locally to reuse names like "i" for iterating for loops, rather than limiting myself to a collection of variables that I need to shuffle around to fit the purposes of the algorithm at any given stage.
+From a coding perspective, my use of variables (especially in the hard mode section of the `generate_ai_shots` function is sloppy, and probably contributed to the complexity and confusion of things. From further studies, it would behoove me to define more things locally to reuse names like "i" for iterating for loops, rather than limiting myself to a collection of variables that I need to shuffle around to fit the purposes of the algorithm at any given stage. The reusing of variables was in an attempt to save on memory by simply using less variables, but now I know that locally defined variables have automatic storage duration.
 
 
